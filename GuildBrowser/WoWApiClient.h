@@ -2,7 +2,7 @@
 #import "AFHTTPClient.h"
 
 @class Character;
-@class Guild;
+//@class Guild;
 
 @interface WoWApiClient : AFHTTPClient
 
