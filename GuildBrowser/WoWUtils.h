@@ -90,14 +90,14 @@ typedef enum {
     ranged
 } ItemSlot;
 
-typedef enum {
+typedef NS_ENUM(NSUInteger, ItemQuality) {
     Grey = 1,
     White,
     Green,
     Blue,
     Purple,
     Legend
-} ItemQuality;
+} ;
 
 @interface WoWUtils : NSObject
 
