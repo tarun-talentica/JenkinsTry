@@ -4,7 +4,7 @@
 @class Character;
 @class Guild;
 
-//@interface WoWApiClient : AFHTTPClient
+@interface WoWApiClient : AFHTTPClient
 
 typedef void (^GuildBlock)(Guild *guild);
 typedef void (^CharacterBlock)(Character *character);
